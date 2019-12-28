@@ -11,27 +11,27 @@ app.get("/",function(req,resp){
 });
 
 app.get("/anna",function(req,resp){
-    console.log("happy new year anna");
+    resp.send("happy new year anna");
 });
 
 app.get("/amitguddu",function(req,resp){
-    console.log("happy new year amit ani guddi");
+    resp.send("happy new year amit ani guddi");
 });
 
 app.get("/mama",function(req,resp){
-    console.log("happy new year mama");
+    resp.send("happy new year mama");
 });
 
 app.get("/aau",function(req,resp){
-    console.log("happy new year aau");
+    resp.send("happy new year aau");
 });
 
 app.get("/aaipappa",function(req,resp){
-    console.log("happy new year aai ani pappa");
+    resp.send("happy new year aai ani pappa");
 });
 
 app.get("/atya",function(req,resp){
-    console.log("happy new year atya");
+    resp.send("happy new year atya");
 });
 
 app.post("/calculate",function(req,resp){
